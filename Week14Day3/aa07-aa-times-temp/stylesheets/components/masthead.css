@@ -1,0 +1,86 @@
+/* Your code here */
+.masthead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    /* grid-template-areas: "search, empty, subscribe"
+    "date, logo, todayspaper" ; */
+    /* padding: 20px 0; */
+}
+
+.masthead__menu-and-search{
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    /* grid-row-start: 1;
+    grid-column-start: 1; */
+}
+
+.masthead__button-icon {
+    padding: 7px 9px;
+    font-size: 11px;
+
+}
+
+.masthead__button-icon:hover{
+    background-color: #f7f7f5
+}
+
+.masthead__actions{
+display: flex;
+ justify-content: flex-end;
+grid-column-start: 3;
+    /* display: flex;
+ align-items: center;
+  justify-content: flex-end;
+ /* height: 60px; */
+ height: 60px;
+}
+
+.masthead__technologies{
+    /* display: flex; */
+    /* justify-content: center; */
+
+    justify-self: center;
+    /* grid-area: logo; */
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.masthead__technologies span{
+    font-size: 10px;
+    color: #999;
+    margin: 0 5px;
+
+}
+.masthead__date{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    border-bottom: 1px solid;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #a09f9f;
+
+}
+.masthead__logo{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    display: flex;
+    align-items: flex-end;
+    /* height: 40px; */
+    justify-content: center;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.masthead__paper{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    display: flex;
+    align-items: flex-end;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.masthead_borders{
+border-bottom: 1px solid;
+}
