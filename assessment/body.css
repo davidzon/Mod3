@@ -1,0 +1,16 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #F4F1EA;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #A52A2A; /* brown */
+}

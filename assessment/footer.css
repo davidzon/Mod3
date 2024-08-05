@@ -1,0 +1,142 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #F4F1EA;
+
+    /* box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+footer .footer-section {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer-section h4 {
+    color: #000000; /* black */
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+    display: flex;
+    /* justify-content: left; */
+    font-size: 18px;
+
+
+
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+footer .footer-section ul li {
+    margin: 5px 0;
+}
+
+footer .footer-section ul li a {
+    color:#800080;
+    position: relative;
+    top: 30px;
+    display: flex;
+    padding: 12px;
+    padding-left: 35px;
+    right: 80px;
+}
+
+footer .footer-section ul li a:hover {
+    color: #A52A2A; /* brown */
+    text-decoration: underline;
+}
+
+footer .footer-section ul li i {
+    margin-right: 10px;
+}
+
+
+footer .footer-section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer-section2 h4 {
+    color: #000000; /* black */
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+    display: flex;
+    /* justify-content: left; */
+    font-size: 18px;
+
+
+
+}
+
+footer .footer-section2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+footer .footer-section2 ul li {
+    margin: 5px 0;
+}
+
+footer .footer-section2 ul li a {
+    color: #000000; /* black */
+    position: relative;
+    top: 30px;
+    display: flex;
+    padding: 12px;
+    /* padding-left: 5px; */
+    right: 60px;
+}
+
+footer .footer-section2 ul li a:hover {
+    color: #A52A2A; /* brown */
+}
+
+footer .footer-section2 ul li i {
+    margin-right: 10px;
+}
+
+
+ @media (max-width: 700px) {
+     footer {
+        position: relative;
+        bottom: 100px;
+        right: 70px;
+    }
+    .footer-section{
+        position: relative;
+        left: 20px;
+    }
+
+    footer .footer-section ul li {
+        width: 100px;
+        padding: 5px;
+        gap: 20px;
+        margin: 0px;
+        font-size: 14px;
+
+    }
+    footer .footer-section ul li a{
+        width:100px;
+        padding: none;
+        margin: none;
+        justify-content:center;;
+    }
+    footer .footer-section h4 {
+        position: relative;
+        right: 50px;
+
+}
+
+ }

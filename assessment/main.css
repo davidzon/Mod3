@@ -1,0 +1,321 @@
+main {
+    padding: 20px;
+    background-color: #F4F1EA;
+}
+
+main h1 {
+    color: #000000; /* black */
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #F4F1EA;
+}
+
+.book-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 1024px; */
+    background-color: #F4F1EA;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #A52A2A; /* brown */
+    padding: 10px;
+    /* box-shadow: 0 4px 8px 0 #778899; lightslategray */
+    background-color: #F4F1EA;
+    width: 450px;
+    box-sizing: border-box;
+    height: 400px;
+
+
+}
+
+.book-card img {
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: 35px;
+    left: 35px;
+    box-shadow: 4px 4px 6px #778899;
+
+
+}
+
+.book-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-card-content h2 {
+    color: #000000; /* black */
+    margin: 0;
+    font-size: 18px;
+    position: relative;
+    left: 175px;
+    bottom: 135px;
+    font-weight: 700;
+
+}
+
+.book-card-content h3 {
+    color: #000000; /* black */
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    left: 175px;
+    bottom: 135px;
+    font-weight: 700;
+}
+
+.book-card-content p:not(.library1,.library2) {
+    color: #000000; /* black */
+    font-size: 14px;
+    position: relative;
+    left: 175px;
+    width: 200px;
+    bottom: 140px;
+    font-weight:500;
+
+
+}
+
+.book-card-content button {
+    background-color: #A52A2A; /* brown */
+    color: #FFFFFF; /* white */
+    border: none;
+    /* padding: 10px; */
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.book-card-content button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #800080;
+    color: #FFFFFF;
+}
+
+.book-card-content button {
+    position: relative;
+    bottom: 190px;
+    width: 120px;
+    height: 35px;
+    left: 35px;
+}
+.book-card-content button p  {
+    position: relative;
+    bottom: 2px;
+    font-size: 12px;
+    height: 35px;
+    width: 120px;
+    right: 5px;
+}
+
+.book-card-content button p:hover{
+    color: #800080;
+}
+
+
+.book-card2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #A52A2A; /* brown */
+    padding: 10px;
+    /* box-shadow: 0 4px 8px 0 #778899; lightslategray */
+    background-color: #F4F1EA;
+
+    width: 450px;
+    box-sizing: border-box;
+    height: 400px;
+
+
+}
+
+.book-card2 img {
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: 35px;
+    left: 35px;
+    box-shadow: 4px 4px 6px #778899;
+
+
+}
+.book-card-content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-card-content2 h2 {
+    color: #000000; /* black */
+    margin: 0;
+    font-size: 18px;
+    position: relative;
+    left: 175px;
+    bottom: 135px;
+    font-weight: 700;
+
+}
+
+.book-card-content2 h3 {
+    color: #000000; /* black */
+    margin: 0;
+    font-size: 14px;
+    position: relative;
+    left: 175px;
+    bottom: 135px;
+    font-weight: 700;
+}
+
+.book-card-content2 p:not(.library1,.library2) {
+    color: #000000; /* black */
+    font-size: 14px;
+    position: relative;
+    left: 175px;
+    width: 200px;
+    bottom: 140px;
+    font-weight:500;
+
+
+}
+
+
+.book-card-content2 button {
+    background-color: #A52A2A; /* brown */
+    color: #FFFFFF; /* white */
+    border: none;
+    /* padding: 10px; */
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.book-card-content2 button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #800080;
+    color: #FFFFFF;
+}
+.book-card-content2 button {
+    position: relative;
+    bottom: 270px;
+    width: 120px;
+    height: 35px;
+    left: 35px;
+}
+.book-card-content2 button p  {
+    position: relative;
+    bottom: 2px;
+    font-size: 12px;
+    height: 35px;
+    width: 120px;
+    right: 5px;
+}
+.book-card-content2 button p:hover{
+    color: #800080;
+}
+@media (max-width: 700px) {
+
+    main h1{
+        position: relative;
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .book-card {
+        width: 600px;
+        border: none;
+        height: 300px;
+        position: relative;
+        right: 15px;
+    }
+
+    .book-card-content h2{
+      position: relative;
+      text-align: center;
+      left: 70px;
+      font-size: 19px;
+
+    }
+    .book-card-content h3{
+        position: relative;
+        text-align: center;
+        left: 70px;
+        bottom: 130px;
+        font-size: 16px;;
+
+
+    }
+    .book-card-content p:not(.library1,.library2) {
+        width: 390px;
+        text-wrap: balance;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .book-card-content button {
+        position: relative;
+
+    }
+    .book-card-content button p  {
+        position: relative;
+        bottom: 2px;
+        font-size: 12px;
+    }
+
+
+    .book-card-content button {
+        background-color: #A52A2A; /* brown */
+        color: #FFFFFF; /* white */
+        /* border: none; */
+        /* padding: 10px; */
+        cursor: pointer;
+        font-size: 14px;
+        position: relative;
+        bottom: 125px;
+    }
+    .book-card2 {
+        width: 600px;
+        border: none;
+        position: relative;
+        right: 15px;
+    }
+
+    .book-card-content2 h2{
+        position: relative;
+        text-align: center;
+        left: 70px;
+        font-size: 19px;
+
+    }
+    .book-card-content2 h3{
+        position: relative;
+        text-align: center;
+        left: 70px;
+        bottom: 125px;
+        font-size: 16px;;
+
+    }
+    .book-card-content2 p:not(.library1,.library2) {
+        width: 390px;
+        text-wrap: balance;
+        text-align: center;
+        font-size: 14px;
+    }
+    .book-card-content2 button {
+        background-color: #A52A2A; /* brown */
+        color: #FFFFFF; /* white */
+        /* border: none; */
+        /* padding: 10px; */
+        cursor: pointer;
+        font-size: 14px;
+        position: relative;
+        bottom: 155px;
+    }
+}
